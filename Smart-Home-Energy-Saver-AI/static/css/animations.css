@@ -1,0 +1,250 @@
+/*
+ * frontend/styles/animations.css
+ * Synervy AI – Animation definitions: risk glow, typing, transitions
+ */
+
+/* ── Typing indicator ────────────────────────────────── */
+.typing-indicator {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 12px 16px;
+}
+
+.typing-indicator span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--brand-primary);
+    animation: typing-bounce 1.3s ease-in-out infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes typing-bounce {
+
+    0%,
+    60%,
+    100% {
+        transform: translateY(0);
+        opacity: 0.4;
+    }
+
+    30% {
+        transform: translateY(-8px);
+        opacity: 1;
+    }
+}
+
+/* ── Risk Escalation Glows ───────────────────────────── */
+@keyframes glow-low {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 rgba(34, 197, 94, 0);
+    }
+
+    50% {
+        box-shadow: 0 0 12px rgba(34, 197, 94, 0.25);
+    }
+}
+
+@keyframes glow-medium {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 rgba(245, 158, 11, 0);
+    }
+
+    50% {
+        box-shadow: 0 0 18px rgba(245, 158, 11, 0.35);
+    }
+}
+
+@keyframes glow-high {
+
+    0%,
+    100% {
+        box-shadow: 0 0 8px rgba(249, 115, 22, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(249, 115, 22, 0.65);
+    }
+}
+
+@keyframes glow-critical {
+
+    0%,
+    100% {
+        box-shadow: 0 0 12px rgba(239, 68, 68, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 45px rgba(239, 68, 68, 0.9);
+    }
+}
+
+/* Applied to body via JS when risk changes */
+body.risk-LOW {
+    animation: glow-low 3s ease-in-out infinite;
+}
+
+body.risk-MEDIUM {
+    animation: glow-medium 2s ease-in-out infinite;
+}
+
+body.risk-HIGH {
+    animation: glow-high 1.5s ease-in-out infinite;
+}
+
+body.risk-CRITICAL {
+    animation: glow-critical 0.8s ease-in-out infinite;
+}
+
+/* ── Risk border on sidebar ──────────────────────────── */
+#sidebar.risk-HIGH {
+    border-right-color: var(--risk-high-color) !important;
+}
+
+#sidebar.risk-CRITICAL {
+    border-right-color: var(--risk-critical-color) !important;
+}
+
+/* ── Status badge pulse ──────────────────────────────── */
+@keyframes badge-pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.7;
+        transform: scale(1.07);
+    }
+}
+
+.risk-badge.CRITICAL {
+    animation: badge-pulse 0.8s ease-in-out infinite;
+}
+
+.risk-badge.HIGH {
+    animation: badge-pulse 1.5s ease-in-out infinite;
+}
+
+/* ── Agent dot blink ─────────────────────────────────── */
+@keyframes dot-blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+}
+
+.agent-dot {
+    animation: dot-blink 1.8s ease-in-out infinite;
+}
+
+/* ── Chat message slide-in ───────────────────────────── */
+@keyframes msg-in {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chat-message {
+    animation: msg-in 0.28s ease-out;
+}
+
+/* ── Sidebar slide ───────────────────────────────────── */
+#sidebar {
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 0.3s ease,
+        transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#sidebar.collapsed {
+    width: 0 !important;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateX(-100%);
+    pointer-events: none;
+}
+
+/* ── Activity feed item ──────────────────────────────── */
+@keyframes feed-in {
+    from {
+        opacity: 0;
+        transform: translateX(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.activity-item {
+    animation: feed-in 0.3s ease-out;
+}
+
+/* ── Spinner ─────────────────────────────────────────── */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--border-default);
+    border-top-color: var(--brand-primary);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+/* ── Page transition ────────────────────────────────── */
+@keyframes page-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.page-view {
+    animation: page-fade 0.25s ease-out;
+}
+
+/* ── Theme transition ────────────────────────────────── */
+*,
+*::before,
+*::after {
+    transition-property: background-color, border-color, color, box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}

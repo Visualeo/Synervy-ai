@@ -1,0 +1,640 @@
+[
+  {
+    "id": "evt_20260227234809814095",
+    "timestamp": "2026-02-27T23:48:09.814108",
+    "agent": "MonitoringAgent",
+    "action": "What is my current energy usage?",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Monitoring Report** (2026-02-27)\n\n\u2022 **Air Conditioning**: 0.76 kWh\n\u2022 **Washing Machine**: 1.51 kWh\n\u2022 **Dishwasher**: 3.46 kWh\n\u2022 **Heater**: 4.85 kWh\n\u2022 **Computer**: 3.17 kWh\n\n**Tota"
+    }
+  },
+  {
+    "id": "evt_20260227234926982469",
+    "timestamp": "2026-02-27T23:49:26.982518",
+    "agent": "PredictionAgent",
+    "action": "Show me my energy forecast",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udd2e **48-Hour Energy Forecast** \u2014 Tomorrow: 29.4\u00b0C high / 14.3\u00b0C low, Mainly Clear\n\n\u2022 **Air Conditioning**: 2.72 kWh\n\u2022 **Washing Machine**: 2.45 kWh\n\u2022 **Dishwasher**: 3.87 kWh\n\u2022 **Heater**: 0.89 kWh\n\u2022 *"
+    }
+  },
+  {
+    "id": "evt_20260227234934175680",
+    "timestamp": "2026-02-27T23:49:34.175731",
+    "agent": "PredictionAgent",
+    "action": "Show me my energy forecast",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udd2e **48-Hour Energy Forecast** \u2014 Tomorrow: 29.4\u00b0C high / 14.3\u00b0C low, Mainly Clear\n\n\u2022 **Air Conditioning**: 1.11 kWh\n\u2022 **Washing Machine**: 2.68 kWh\n\u2022 **Dishwasher**: 1.05 kWh\n\u2022 **Heater**: 4.14 kWh\n\u2022 *"
+    }
+  },
+  {
+    "id": "evt_20260227235104802574",
+    "timestamp": "2026-02-27T23:51:04.802710",
+    "agent": "CoordinatorAgent",
+    "action": "hi",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260227235129284984",
+    "timestamp": "2026-02-27T23:51:29.285029",
+    "agent": "CoordinatorAgent",
+    "action": "Hi",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260227235144982127",
+    "timestamp": "2026-02-27T23:51:44.982157",
+    "agent": "MonitoringAgent",
+    "action": "What is my current energy usage?",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Monitoring Report** (2026-02-27)\n\n\u2022 **Air Conditioning**: 2.48 kWh\n\u2022 **Washing Machine**: 3.67 kWh\n\u2022 **Dishwasher**: 3.33 kWh\n\u2022 **Heater**: 4.23 kWh\n\u2022 **Computer**: 0.72 kWh\n\n**Tota"
+    }
+  },
+  {
+    "id": "evt_20260227235243175298",
+    "timestamp": "2026-02-27T23:52:43.175339",
+    "agent": "MonitoringAgent",
+    "action": "What is my current energy usage status?",
+    "risk_level": "HIGH",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Monitoring Report** (2026-02-27)\n\n\u2022 **Air Conditioning**: 3.93 kWh\n\u2022 **Washing Machine**: 4.94 kWh\n\u2022 **Dishwasher**: 1.44 kWh\n\u2022 **Heater**: 0.65 kWh\n\u2022 **Computer**: 4.33 kWh\n\n**Tota"
+    }
+  },
+  {
+    "id": "evt_20260227235245371925",
+    "timestamp": "2026-02-27T23:52:45.371946",
+    "agent": "MonitoringAgent",
+    "action": "Forecast tomorrows energy consumption",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Monitoring Report** (2026-02-27)\n\n\u2022 **Air Conditioning**: 3.23 kWh\n\u2022 **Washing Machine**: 1.04 kWh\n\u2022 **Dishwasher**: 2.92 kWh\n\u2022 **Heater**: 0.53 kWh\n\u2022 **Computer**: 3.03 kWh\n\n**Tota"
+    }
+  },
+  {
+    "id": "evt_20260227235248110372",
+    "timestamp": "2026-02-27T23:52:48.110421",
+    "agent": "DecisionAgent",
+    "action": "Recommend an energy optimization plan",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Autonomous Optimization Plan Generated**\n\n_Tomorrow's forecast: 29.4\u00b0C high / 14.3\u00b0C low, Mainly Clear._\n\n**Recommended Actions:**\n\u2022 **Air Conditioning**: Use natural ventilation instead of AC \u2014 w"
+    }
+  },
+  {
+    "id": "evt_20260227235250536449",
+    "timestamp": "2026-02-27T23:52:50.536471",
+    "agent": "MonitoringAgent",
+    "action": "Show me current risk alerts",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Monitoring Report** (2026-02-27)\n\n\u2022 **Air Conditioning**: 4.23 kWh\n\u2022 **Washing Machine**: 0.76 kWh\n\u2022 **Dishwasher**: 2.63 kWh\n\u2022 **Heater**: 1.59 kWh\n\u2022 **Computer**: 0.51 kWh\n\n**Tota"
+    }
+  },
+  {
+    "id": "evt_20260227235252203145",
+    "timestamp": "2026-02-27T23:52:52.203181",
+    "agent": "MonitoringAgent",
+    "action": "What is my current energy usage status?",
+    "risk_level": "HIGH",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Monitoring Report** (2026-02-27)\n\n\u2022 **Air Conditioning**: 2.93 kWh\n\u2022 **Washing Machine**: 4.04 kWh\n\u2022 **Dishwasher**: 1.90 kWh\n\u2022 **Heater**: 1.74 kWh\n\u2022 **Computer**: 4.45 kWh\n\n**Tota"
+    }
+  },
+  {
+    "id": "evt_20260228105858469048",
+    "timestamp": "2026-02-28T10:58:58.469215",
+    "agent": "CoordinatorAgent",
+    "action": "hi",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260228105917746129",
+    "timestamp": "2026-02-28T10:59:17.746166",
+    "agent": "ExecutionAgent",
+    "action": "turn off the fridge",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** System\n**Command:** Apply general power-saving profile to all connected devices\n**Result:** \u2705 Control signal dispatched to hub.\n\n_Executed at 10:59:17."
+    }
+  },
+  {
+    "id": "evt_20260228110320615706",
+    "timestamp": "2026-02-28T11:03:20.615811",
+    "agent": "CoordinatorAgent",
+    "action": "What can Synervy AI do?",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260228110322561842",
+    "timestamp": "2026-02-28T11:03:22.561903",
+    "agent": "ExecutionAgent",
+    "action": "Turn off the air conditioning",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** System\n**Command:** Apply general power-saving profile to all connected devices\n**Result:** \u2705 Device responded \u2014 action applied successfully.\n\n_Execute"
+    }
+  },
+  {
+    "id": "evt_20260228110323620413",
+    "timestamp": "2026-02-28T11:03:23.620545",
+    "agent": "MonitoringAgent",
+    "action": "Show me current risk alerts",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Status**\n\nYour home is currently using 7.70 kWh of energy. I am successfully tracking 5 active appliances. No immediate issues detected.\n\n---\n**Technical Breakdown (2025-11-08):**\n\u2022"
+    }
+  },
+  {
+    "id": "evt_20260228110325752475",
+    "timestamp": "2026-02-28T11:03:25.752551",
+    "agent": "MonitoringAgent",
+    "action": "Show me current risk alerts",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Status**\n\nYour home is currently using 7.70 kWh of energy. I am successfully tracking 5 active appliances. No immediate issues detected.\n\n---\n**Technical Breakdown (2025-11-08):**\n\u2022"
+    }
+  },
+  {
+    "id": "evt_20260228110340268035",
+    "timestamp": "2026-02-28T11:03:40.268113",
+    "agent": "DecisionAgent",
+    "action": "Recommend an energy optimization plan",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228110350814419",
+    "timestamp": "2026-02-28T11:03:50.814498",
+    "agent": "CoordinatorAgent",
+    "action": "hi",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260228110402044343",
+    "timestamp": "2026-02-28T11:04:02.044381",
+    "agent": "ExecutionAgent",
+    "action": "turn off tv",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** System\n**Command:** Apply general power-saving profile to all connected devices\n**Result:** \u2705 Device responded \u2014 action applied successfully.\n\n_Execute"
+    }
+  },
+  {
+    "id": "evt_20260228110815540916",
+    "timestamp": "2026-02-28T11:08:15.541015",
+    "agent": "CoordinatorAgent",
+    "action": "Hi",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260228110830332200",
+    "timestamp": "2026-02-28T11:08:30.332326",
+    "agent": "DecisionAgent",
+    "action": "turn the ac off",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228110855644483",
+    "timestamp": "2026-02-28T11:08:55.644530",
+    "agent": "ExecutionAgent",
+    "action": "Turn off the AC",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** Ac\n**Command:** Turn off AC\n**Result:** \u2705 Control signal dispatched to hub.\n\n_Executed at 11:08:55. Control signal confirmed by Synervy Hub._"
+    }
+  },
+  {
+    "id": "evt_20260228111734358950",
+    "timestamp": "2026-02-28T11:17:34.358993",
+    "agent": "DecisionAgent",
+    "action": "What is my current energy usage?",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111736249980",
+    "timestamp": "2026-02-28T11:17:36.250012",
+    "agent": "DecisionAgent",
+    "action": "Forecast tomorrow's energy consumption",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111738233458",
+    "timestamp": "2026-02-28T11:17:38.233493",
+    "agent": "DecisionAgent",
+    "action": "Recommend a plan to cut down my bill",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111740303277",
+    "timestamp": "2026-02-28T11:17:40.303317",
+    "agent": "DecisionAgent",
+    "action": "Turn off the AC",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111742462904",
+    "timestamp": "2026-02-28T11:17:42.462940",
+    "agent": "DecisionAgent",
+    "action": "Are there any dangers?",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111744468842",
+    "timestamp": "2026-02-28T11:17:44.468876",
+    "agent": "DecisionAgent",
+    "action": "Hello who are you",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111819945760",
+    "timestamp": "2026-02-28T11:18:19.945788",
+    "agent": "DecisionAgent",
+    "action": "What is my current energy usage?",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111821792913",
+    "timestamp": "2026-02-28T11:18:21.792975",
+    "agent": "DecisionAgent",
+    "action": "Forecast tomorrow's energy consumption",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111824002757",
+    "timestamp": "2026-02-28T11:18:24.002799",
+    "agent": "DecisionAgent",
+    "action": "Recommend a plan to cut down my bill",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111826388365",
+    "timestamp": "2026-02-28T11:18:26.388404",
+    "agent": "DecisionAgent",
+    "action": "Turn off the AC",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111828417114",
+    "timestamp": "2026-02-28T11:18:28.417184",
+    "agent": "DecisionAgent",
+    "action": "Are there any dangers?",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111830669831",
+    "timestamp": "2026-02-28T11:18:30.669868",
+    "agent": "DecisionAgent",
+    "action": "Hello who are you",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228111953822038",
+    "timestamp": "2026-02-28T11:19:53.822074",
+    "agent": "MonitoringAgent",
+    "action": "What is my current energy usage?",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Status**\n\nYour home is currently using 7.70 kWh of energy. I am successfully tracking 5 active appliances. No immediate issues detected.\n\n---\n**Technical Breakdown (2025-11-08):**\n\u2022"
+    }
+  },
+  {
+    "id": "evt_20260228111958557294",
+    "timestamp": "2026-02-28T11:19:58.557333",
+    "agent": "PredictionAgent",
+    "action": "Forecast tomorrow's energy consumption",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udd2e **Energy Forecast for Tomorrow**\n\nBased on the weather forecast, I expect your home to use about 9.88 kWh of energy tomorrow. The system risk level will be MEDIUM.\n\n---\n**Technical Forecast Breakdow"
+    }
+  },
+  {
+    "id": "evt_20260228112002113547",
+    "timestamp": "2026-02-28T11:20:02.113583",
+    "agent": "DecisionAgent",
+    "action": "Recommend a plan to cut down my bill",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228112003625462",
+    "timestamp": "2026-02-28T11:20:03.625509",
+    "agent": "ExecutionAgent",
+    "action": "Turn off the AC",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** Ac\n**Command:** Set AC to {temp}\u00b0C\n**Result:** \u2705 Device responded \u2014 action applied successfully.\n\n_Executed at 11:20:03. Control signal confirmed by Sy"
+    }
+  },
+  {
+    "id": "evt_20260228112004959061",
+    "timestamp": "2026-02-28T11:20:04.959099",
+    "agent": "NotificationAgent",
+    "action": "Are there any dangers?",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u2705 **System Normal**: All energy parameters within optimal range. No immediate action required.\n\n_Synervy AI Notification System \u2014 11:20_"
+    }
+  },
+  {
+    "id": "evt_20260228112006288875",
+    "timestamp": "2026-02-28T11:20:06.288962",
+    "agent": "CoordinatorAgent",
+    "action": "Hello who are you",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260228112252614077",
+    "timestamp": "2026-02-28T11:22:52.614221",
+    "agent": "CoordinatorAgent",
+    "action": "Hi Synervy",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260228112312554567",
+    "timestamp": "2026-02-28T11:23:12.554671",
+    "agent": "NotificationAgent",
+    "action": "is there any issues",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u2705 **System Normal**: All energy parameters within optimal range. No immediate action required.\n\n_Synervy AI Notification System \u2014 11:23_"
+    }
+  },
+  {
+    "id": "evt_20260228112347620714",
+    "timestamp": "2026-02-28T11:23:47.620789",
+    "agent": "ExecutionAgent",
+    "action": "hello ai , can you turn the ac off",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** Ac\n**Command:** Enable AC eco-mode\n**Result:** \u2705 Command acknowledged by device controller.\n\n_Executed at 11:23:47. Control signal confirmed by Synervy"
+    }
+  },
+  {
+    "id": "evt_20260228112415837680",
+    "timestamp": "2026-02-28T11:24:15.837757",
+    "agent": "ExecutionAgent",
+    "action": "hello mr , i said to turn off the ac",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** Ac\n**Command:** Enable AC eco-mode\n**Result:** \u2705 Control signal dispatched to hub.\n\n_Executed at 11:24:15. Control signal confirmed by Synervy Hub._"
+    }
+  },
+  {
+    "id": "evt_20260228112442769860",
+    "timestamp": "2026-02-28T11:24:42.769959",
+    "agent": "ExecutionAgent",
+    "action": "turn on the ac",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** Ac\n**Command:** Turn off AC\n**Result:** \u2705 Device responded \u2014 action applied successfully.\n\n_Executed at 11:24:42. Control signal confirmed by Synervy H"
+    }
+  },
+  {
+    "id": "evt_20260228113007952481",
+    "timestamp": "2026-02-28T11:30:07.952592",
+    "agent": "MonitoringAgent",
+    "action": "What is my current energy usage?",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Status**\n\nYour home is currently using 7.70 kWh of energy. I am successfully tracking 5 active appliances. No immediate issues detected.\n\n---\n**Technical Breakdown (2025-11-08):**\n\u2022"
+    }
+  },
+  {
+    "id": "evt_20260228113023561877",
+    "timestamp": "2026-02-28T11:30:23.562118",
+    "agent": "CoordinatorAgent",
+    "action": "what is 2 + 3 = ?",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260228113232402998",
+    "timestamp": "2026-02-28T11:32:32.403091",
+    "agent": "MonitoringAgent",
+    "action": "What is my current energy usage status?",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Status**\n\nYour home is currently using 7.70 kWh of energy. I am successfully tracking 5 active appliances. No immediate issues detected.\n\n---\n**Technical Breakdown (2025-11-08):**\n\u2022"
+    }
+  },
+  {
+    "id": "evt_20260228113250670705",
+    "timestamp": "2026-02-28T11:32:50.670814",
+    "agent": "DecisionAgent",
+    "action": "Recommend an energy optimization plan",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228113304121494",
+    "timestamp": "2026-02-28T11:33:04.121549",
+    "agent": "ExecutionAgent",
+    "action": "Turn off the air conditioning",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** air conditioning\n**Command:** Turn off the air conditioning\n**Result:** \u2705 Command acknowledged by device controller.\n\n_Executed at 11:33:04. Control si"
+    }
+  },
+  {
+    "id": "evt_20260228113316713924",
+    "timestamp": "2026-02-28T11:33:16.714498",
+    "agent": "ExecutionAgent",
+    "action": "Turn off the air conditioning",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83c\udf9b\ufe0f **Execution Command Dispatched**\n\n**Device:** air conditioning\n**Command:** Turn off\n**Result:** \u2705 Command acknowledged by device controller.\n\n_Executed at 11:33:16. Control signal confirmed by Syn"
+    }
+  },
+  {
+    "id": "evt_20260228113325597437",
+    "timestamp": "2026-02-28T11:33:25.597527",
+    "agent": "CoordinatorAgent",
+    "action": "What can Synervy AI do?",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udc4b **Welcome to Synervy AI \u2013 Autonomous Energy Intelligence System**\n\nI am your autonomous energy management assistant. Here's what I can help you with:\n\n\u2022 \ud83d\udcca **Energy Monitoring** \u2014 _'What is my curren"
+    }
+  },
+  {
+    "id": "evt_20260228113442859363",
+    "timestamp": "2026-02-28T11:34:42.859479",
+    "agent": "MonitoringAgent",
+    "action": "What is my current energy usage status?",
+    "risk_level": "LOW",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\ud83d\udcca **Current Energy Status**\n\nYour home is currently using 7.70 kWh of energy. I am successfully tracking 5 active appliances. No immediate issues detected.\n\n---\n**Technical Breakdown (2025-11-08):**\n\u2022"
+    }
+  },
+  {
+    "id": "evt_20260228113502861521",
+    "timestamp": "2026-02-28T11:35:02.861606",
+    "agent": "DecisionAgent",
+    "action": "Show me current risk alerts",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228113510231213",
+    "timestamp": "2026-02-28T11:35:10.231287",
+    "agent": "DecisionAgent",
+    "action": "Turn off the air conditioning",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228113536137146",
+    "timestamp": "2026-02-28T11:35:36.137220",
+    "agent": "DecisionAgent",
+    "action": "Recommend an energy optimization plan",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  },
+  {
+    "id": "evt_20260228113549203013",
+    "timestamp": "2026-02-28T11:35:49.203104",
+    "agent": "DecisionAgent",
+    "action": "Show me current risk alerts",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
+    }
+  }
+]

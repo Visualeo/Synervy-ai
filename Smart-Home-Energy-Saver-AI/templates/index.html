@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Synervy AI – Autonomous Energy Intelligence System</title>
+  <meta name="description"
+    content="Enterprise-grade autonomous AI platform for real-time energy monitoring, forecasting, and optimization. Multi-agent architecture powered by Synervy AI." />
+  <meta name="theme-color" content="#10b981" />
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Theme Preload (Prevents Flash) -->
+  <script>
+    (function () {
+      var theme = localStorage.getItem('synervy-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/static/css/main.css" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+
+<body>
+
+  <div id="app">
+
+    <!-- ═══════════════════════════════════════
+       TOP STATUS BAR
+  ════════════════════════════════════════ -->
+    <header id="topbar">
+      <!-- Brand -->
+      <div class="brand">
+        <button class="icon-btn" id="toggle-sidebar" title="Toggle sidebar">☰</button>
+        <div class="logo">⚡</div>
+        <div>
+          <div class="brand-name">Synervy AI</div>
+          <div class="brand-tag">Autonomous Energy Intelligence</div>
+        </div>
+      </div>
+
+      <!-- Center — Agent + Risk -->
+      <div class="topbar-center">
+        <div class="agent-indicator">
+          <span class="agent-dot"></span>
+          <span>Active:</span>
+          <span class="agent-name" id="agent-name">CoordinatorAgent</span>
+        </div>
+        <span class="risk-badge LOW" id="risk-badge">🟢 Low</span>
+      </div>
+
+      <!-- Right controls -->
+      <div class="topbar-right">
+        <button class="icon-btn" id="toggle-activity" title="Toggle activity feed">📡</button>
+        <button class="icon-btn" id="theme-toggle" title="Toggle theme">☀️</button>
+      </div>
+    </header>
+
+    <!-- ═══════════════════════════════════════
+       CONTENT AREA
+  ════════════════════════════════════════ -->
+    <div id="content-area">
+
+      <!-- ─── LEFT SIDEBAR ──────────────────────── -->
+      <aside id="sidebar">
+        <div class="sidebar-header">
+          <h3>System Configuration</h3>
+        </div>
+
+        <!-- Household settings -->
+        <div class="sidebar-section">
+          <h4>⚙️ Parameters</h4>
+          <div class="form-field">
+            <label for="ctx-hh-size">Household Size</label>
+            <input type="number" id="ctx-hh-size" value="4" min="1" max="20" />
+          </div>
+          <div class="form-field">
+            <label for="ctx-latitude">Latitude</label>
+            <input type="number" id="ctx-latitude" value="18.6298" step="0.0001" />
+          </div>
+          <div class="form-field">
+            <label for="ctx-longitude">Longitude</label>
+            <input type="number" id="ctx-longitude" value="73.7997" step="0.0001" />
+          </div>
+          <div class="form-field">
+            <label for="ctx-timezone">Timezone</label>
+            <select id="ctx-timezone">
+              <option value="Asia/Kolkata" selected>Asia/Kolkata</option>
+              <option value="UTC">UTC</option>
+              <option value="America/New_York">America/New_York</option>
+              <option value="Europe/London">Europe/London</option>
+              <option value="Asia/Singapore">Asia/Singapore</option>
+              <option value="Australia/Sydney">Australia/Sydney</option>
+            </select>
+          </div>
+          <button class="btn-apply" id="apply-context">Apply Configuration</button>
+        </div>
+
+        <!-- Quick actions -->
+        <div class="sidebar-section">
+          <h4>⚡ Quick Actions</h4>
+          <div class="quick-actions">
+            <button class="quick-btn" onclick="sendQuick('What is my current energy usage status?')">
+              <span class="emoji">📊</span> Energy Status
+            </button>
+            <button class="quick-btn" onclick="sendQuick('Forecast tomorrow&apos;s energy consumption')">
+              <span class="emoji">🔮</span> Forecast Usage
+            </button>
+            <button class="quick-btn" onclick="sendQuick('Recommend an energy optimization plan')">
+              <span class="emoji">⚡</span> Optimize Now
+            </button>
+            <button class="quick-btn" onclick="sendQuick('Show me current risk alerts')">
+              <span class="emoji">🔔</span> View Alerts
+            </button>
+            <button class="quick-btn" onclick="sendQuick('Turn off the air conditioning')">
+              <span class="emoji">🎛️</span> Control Devices
+            </button>
+            <button class="quick-btn" onclick="sendQuick('What can Synervy AI do?')">
+              <span class="emoji">❓</span> Help &amp; Capabilities
+            </button>
+          </div>
+        </div>
+
+        <!-- System info -->
+        <div class="sidebar-section">
+          <h4>🏗️ Architecture</h4>
+          <div style="font-size:11px;color:var(--text-muted);line-height:1.7;">
+            <div>🧠 CoordinatorAgent</div>
+            <div>📡 MonitoringAgent</div>
+            <div>🔮 PredictionAgent</div>
+            <div>⚡ DecisionAgent</div>
+            <div>🎛️ ExecutionAgent</div>
+            <div>🔔 NotificationAgent</div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ─── MAIN PANEL ─────────────────────────── -->
+      <main id="main-panel">
+
+        <!-- Navigation Tabs -->
+        <nav id="nav-tabs">
+          <button class="nav-tab active" id="nav-chat">💬 Chat</button>
+          <button class="nav-tab" id="nav-history">📋 Optimization History</button>
+        </nav>
+
+        <!-- ─ CHAT PAGE ──────────────────────── -->
+        <div class="page-view active" id="chat-page">
+
+          <!-- Messages -->
+          <div id="chat-messages">
+            <!-- Welcome screen shown until first message -->
+            <div id="welcome-screen">
+              <div class="welcome-logo">⚡</div>
+              <h1>Welcome to <span>Synervy AI</span></h1>
+              <p>
+                Your autonomous energy intelligence system. Ask me anything about your
+                energy usage, get AI-powered forecasts, and receive real-time optimization recommendations.
+              </p>
+              <div class="welcome-chips">
+                <button class="welcome-chip" onclick="sendQuick('What is my current energy usage?')">📊 Energy
+                  status</button>
+                <button class="welcome-chip" onclick="sendQuick('Forecast tomorrow&apos;s energy consumption')">🔮
+                  Forecast usage</button>
+                <button class="welcome-chip" onclick="sendQuick('Recommend an energy optimization plan')">⚡ Optimize
+                  energy</button>
+                <button class="welcome-chip" onclick="sendQuick('Turn off the air conditioning')">🎛️ Control
+                  devices</button>
+                <button class="welcome-chip" onclick="sendQuick('Show me risk alerts')">🔔 View alerts</button>
+                <button class="welcome-chip" onclick="sendQuick('What can Synervy AI do?')">❓ Help</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Input bar -->
+          <div id="input-area">
+            <div class="input-row">
+              <textarea id="chat-input" placeholder="Ask Synervy AI anything about your energy system…" rows="1"
+                autocomplete="off" spellcheck="true"></textarea>
+              <button class="send-btn" id="send-btn" title="Send (Enter)">➤</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ─ HISTORY PAGE ───────────────────── -->
+        <div class="page-view" id="history-page">
+          <div id="history-panel">
+            <h2>📋 Optimization History</h2>
+            <p class="sub">A log of all autonomous actions taken by Synervy AI agents, with approval status.</p>
+            <div id="history-table-wrap">
+              <table id="history-table">
+                <thead>
+                  <tr>
+                    <th>Timestamp</th>
+                    <th>Agent</th>
+                    <th>Action</th>
+                    <th>Risk</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="history-body">
+                  <tr>
+                    <td colspan="6" class="empty-state">
+                      <div class="empty-icon">📋</div>
+                      Generate a conversation to populate the history log.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <!-- ─── RIGHT ACTIVITY FEED ───────────────── -->
+      <aside id="activity-panel">
+        <div class="panel-header">
+          <h3>📡 Agent Activity</h3>
+          <button class="icon-btn" style="width:22px;height:22px;font-size:12px;"
+            onclick="document.getElementById('toggle-activity').click()">✕</button>
+        </div>
+        <div id="activity-feed">
+          <div class="activity-item">
+            <div class="act-agent">CoordinatorAgent</div>
+            <div class="act-action">Initializing multi-agent system...</div>
+            <div class="act-time">—</div>
+            <span class="act-status active">active</span>
+          </div>
+        </div>
+      </aside>
+
+    </div><!-- end #content-area -->
+  </div><!-- end #app -->
+
+  <!-- App script -->
+  <script src="/static/js/app.js" defer></script>
+
+</body>
+
+</html>
