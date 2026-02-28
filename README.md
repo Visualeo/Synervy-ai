@@ -1,8 +1,8 @@
 # Synervy AI  
 ### Autonomous Multi-Agent Smart Energy Load Management System
 
-🚀 Built for Hackathon | Agentic AI Track  
-
+ Built for India | Agentic AI Hackathon
+ KSUM
 ---
 
 ## 👥 Team Name  
