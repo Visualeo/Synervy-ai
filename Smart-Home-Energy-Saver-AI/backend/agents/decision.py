@@ -39,7 +39,7 @@ class DecisionAgent:
             f"Weather Forecast: Normal conditions expected.\n"
             f"Potential Savings: {total_kwh:.2f} kWh (₹{total_cost:.2f})\n\n"
             f"Technical Breakdown & Actions:\n{action_lines}\n\n"
-            f"Total Savings: {total_kwh:.2f} kWh · ₹{total_cost:.2f}\n"
+            f"Total Savings: {total_kwh:.2f} kWh (₹{total_cost:.2f})\n"
             f"System Risk Level: {risk_level}"
         )
 

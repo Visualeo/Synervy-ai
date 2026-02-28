@@ -636,5 +636,82 @@
     "details": {
       "response_preview": "\u26a1 **Optimization Plan Ready**\n\nI have analyzed your usage and found ways to save 3.60 kWh (around \u20b936.85). Here is the simple summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\n\n---\n**Tech"
     }
+  },
+  {
+    "id": "evt_20260228130132726783",
+    "timestamp": "2026-02-28T13:01:32.726841",
+    "agent": "DecisionAgent",
+    "action": "What is my current energy usage status?",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 Optimization Plan Ready\n\nSimple Summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\nWeather Forecast: Normal conditions expected.\nPotential Savings: 3.60 kWh (\u20b936.85)\n\nTechnical Breakdown"
+    }
+  },
+  {
+    "id": "evt_20260228130159479727",
+    "timestamp": "2026-02-28T13:01:59.479842",
+    "agent": "DecisionAgent",
+    "action": "Recommend an energy optimization plan",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 Optimization Plan Ready\n\nSimple Summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\nWeather Forecast: Normal conditions expected.\nPotential Savings: 3.60 kWh (\u20b936.85)\n\nTechnical Breakdown"
+    }
+  },
+  {
+    "id": "evt_20260228130205995692",
+    "timestamp": "2026-02-28T13:02:05.995772",
+    "agent": "DecisionAgent",
+    "action": "Show me current risk alerts",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 Optimization Plan Ready\n\nSimple Summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\nWeather Forecast: Normal conditions expected.\nPotential Savings: 3.60 kWh (\u20b936.85)\n\nTechnical Breakdown"
+    }
+  },
+  {
+    "id": "evt_20260228130215914176",
+    "timestamp": "2026-02-28T13:02:15.914317",
+    "agent": "DecisionAgent",
+    "action": "Turn off the air conditioning",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 Optimization Plan Ready\n\nSimple Summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\nWeather Forecast: Normal conditions expected.\nPotential Savings: 3.60 kWh (\u20b936.85)\n\nTechnical Breakdown"
+    }
+  },
+  {
+    "id": "evt_20260228130241409262",
+    "timestamp": "2026-02-28T13:02:41.409334",
+    "agent": "DecisionAgent",
+    "action": "hello",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 Optimization Plan Ready\n\nSimple Summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\nWeather Forecast: Normal conditions expected.\nPotential Savings: 3.60 kWh (\u20b936.85)\n\nTechnical Breakdown"
+    }
+  },
+  {
+    "id": "evt_20260228130904163077",
+    "timestamp": "2026-02-28T13:09:04.163156",
+    "agent": "DecisionAgent",
+    "action": "hi",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 Optimization Plan Ready\n\nSimple Summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\nWeather Forecast: Normal conditions expected.\nPotential Savings: 3.60 kWh (\u20b936.85)\n\nTechnical Breakdown"
+    }
+  },
+  {
+    "id": "evt_20260228130909109148",
+    "timestamp": "2026-02-28T13:09:09.109188",
+    "agent": "DecisionAgent",
+    "action": "What is my current energy usage status?",
+    "risk_level": "MEDIUM",
+    "approval_status": "auto-approved",
+    "details": {
+      "response_preview": "\u26a1 Optimization Plan Ready\n\nSimple Summary: Tomorrow's forecast: 31.5\u00b0C high / 14.7\u00b0C low, Foggy.\nWeather Forecast: Normal conditions expected.\nPotential Savings: 3.60 kWh (\u20b936.85)\n\nTechnical Breakdown"
+    }
   }
 ]

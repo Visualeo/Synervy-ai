@@ -32,12 +32,12 @@ _model = genai.GenerativeModel("gemini-2.5-flash")
 
 # Map of intent strings to agent instances
 INTENT_MAP = {
-    "MONITORING": _monitoring,
-    "PREDICTION": _prediction,
-    "DECISION": _decision,
-    "EXECUTION": _execution,
-    "NOTIFICATION": _notification,
-    "GENERAL": None
+    "ENERGY_STATUS": _monitoring,
+    "FORECAST_USAGE": _prediction,
+    "OPTIMIZATION_PLAN": _decision,
+    "CONTROL_DEVICES": _execution,
+    "VIEW_ALERTS": _notification,
+    "HELP_CAPABILITIES": None
 }
 
 def _route_to_agent(message: str, context: dict):
@@ -45,14 +45,14 @@ def _route_to_agent(message: str, context: dict):
     prompt = f"""You are an intent classification system for a Smart Home Energy AI.
 Analyze the following user message and classify it into exactly ONE of the following categories:
 
-- MONITORING: Queries about current energy usage, status, hub data, live reading, or monitoring.
-- PREDICTION: Queries about future energy consumption, forecasting, tomorrow's usage, predications.
-- DECISION: Requests for optimization plans, recommendations, saving energy, reducing bills, scheduling.
-- EXECUTION: Commands to turn devices on/off, start/stop actions, override settings, apply plans.
-- NOTIFICATION: Queries about alerts, warnings, critical risks, emergency notifications.
-- GENERAL: General greetings, asking for help, or asking about capabilities.
+- ENERGY_STATUS: Queries about current energy usage, status, hub data, live reading, or monitoring.
+- FORECAST_USAGE: Queries about future energy consumption, forecasting, tomorrow's usage, predications.
+- OPTIMIZATION_PLAN: Requests for optimization plans, recommendations, saving energy, reducing bills, scheduling.
+- CONTROL_DEVICES: Commands to turn devices on/off, start/stop actions, override settings, apply plans.
+- VIEW_ALERTS: Queries about alerts, warnings, critical risks, emergency notifications.
+- HELP_CAPABILITIES: General greetings, asking for help, or asking about capabilities.
 
-Reply ONLY with the exact category name (e.g., MONITORING, PREDICTION, DECISION, EXECUTION, NOTIFICATION, or GENERAL) and nothing else.
+Reply ONLY with the exact category name (e.g., ENERGY_STATUS, FORECAST_USAGE, OPTIMIZATION_PLAN, CONTROL_DEVICES, VIEW_ALERTS, or HELP_CAPABILITIES) and nothing else.
 
 User Message: "{message}"
 """
@@ -61,8 +61,8 @@ User Message: "{message}"
         intent = response.text.strip().upper()
         # Ensure the intent generated is strictly one of the expected keys
         if intent not in INTENT_MAP:
-            # Fallback to general or decision if ambiguous
-            intent = "DECISION"
+            # Fallback to decision if ambiguous
+            intent = "OPTIMIZATION_PLAN"
         return INTENT_MAP[intent]
     except Exception as e:
         print(f"Gemini routing error: {e}")
@@ -87,7 +87,7 @@ def route(message: str, context: dict) -> dict:
             "• Detect overload risks\n"
             "• Optimize device schedules\n"
             "• Reduce electricity costs\n\n"
-            "How to use:\n"
+            "To use:\n"
             "Click any sidebar option to generate a specific report."
         )
         result = {

@@ -75,7 +75,7 @@ class PredictionAgent:
         reply = (
             f"📊 Usage Forecast Report\n\n"
             f"Tomorrow Forecast:\n"
-            f"Temperature: {weather.get('temp_high', '?')}°C / {weather.get('temp_low', '?')}°C\n"
+            f"Temperature: {weather.get('temp_high', '?')}°C\n"
             f"Weather: {weather.get('condition', 'Unknown')}\n\n"
             f"Predicted Consumption: {total_predicted:.2f} kWh\n"
             f"Expected Cost: ₹{total_predicted * 12.0:.2f}\n"
